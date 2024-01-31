@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapp-service
+spec:
+  # default type is Cluster IP
+  type: Nodeport/LoadBalncer(Only works for cluster on cloud)/ExternalName
+  selector:
+    app: Name of the application(i.e., metadata name viz., Pod, Replicaset,& Deployment)
+  ports:
+    - protocol: TCP
+      port: Container port from Pod, Replicaset, & Deploymnets
+      targetPort: 3000
+      nodeport: 30100(30000-30767)
