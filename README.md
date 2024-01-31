@@ -1,5 +1,5 @@
-Created by: Suneel Sai Ega
-Created on: 31/01/2024
+Created by: Suneel Sai Ega;
+Created on: 31/01/2024;
 Updated: Latest
 Purpose of the repository:: This repository about all the resources configuration YAML files
 Contents::
