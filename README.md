@@ -5,3 +5,10 @@ Purpose of the repository:: This repository about all the resources configuratio
 Contents::
 i. Pods, ii. ReplicaSet, iii. Deployments, iv. Service, v. Ingress vi. Statefullsets
 vii. Secrets & ConfigMaps, viii. Volumes, Etc...
+References::
+i. Official documentation from Kubernetes by Google
+ii. Microsoft Bing
+iii. TechworldwithNana from Nanajanesia  
+iv. K8S from Pawan Elthepu
+v. Nextops from Charan Byrishetti
+vi. Cognitive Class AI & Greate learning
