@@ -1,0 +1,10 @@
+# ConfigMap and Secret for sample_webapp.yaml & sample_mongo
+# ConfigMap for non-confidential & non-secret data like DB URLs
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-config
+data:
+  mongo-url: mongo-service
+
+
